@@ -20,3 +20,11 @@ spec:
     - ./joels-group.yaml
     - ./cindys-group.yaml
   children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: guests
+spec:
+  type: team
+  children: []
