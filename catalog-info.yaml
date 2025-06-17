@@ -5,7 +5,3 @@ metadata:
 spec:
   targets:
     - ./org/all-org.yaml
-  filter:
-    kind:
-      - User
-      - Group
