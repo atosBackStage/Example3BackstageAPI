@@ -4,5 +4,8 @@ metadata:
   name: teams
 spec:
   targets:
-    - url: https://github.com/atosBackStage/Example3BackstageAPI/blob/main/catalog-info.yaml
-      allowedKinds: [User, Group]
+    - https://raw.githubusercontent.com/atosBackStage/Example3BackstageAPI/main/catalog-info.yaml
+  filter:
+    kind:
+      - User
+      - Group
