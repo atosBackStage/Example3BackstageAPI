@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: backstage-demo
+  description: demo-organisation
+spec:
+  type: organization
+  children: []
+  profile:
+    displayName: backstage-demo
+    email: info@example.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all Backstage example Groups
+spec:
+  targets:
+    - ./joels-group.yaml
+    - ./cindys-group.yaml
+  children: []
