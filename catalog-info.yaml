@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: teams
+  name: all-user-group-entities
+  description: All users and groups
 spec:
-  targets:
-    - ./org/all-org.yaml
-    - allowedKinds: [ Group, User ]
+  type: url
+  target: /org/all-org.yaml
