@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: teams
-  description: A collection of all Backstage example entities, INCLUDING users, groups, and templates
 spec:
   targets:
-    - ./org/org.yaml
+    - url: https://github.com/atosBackStage/Example3BackstageAPI/blob/main/catalog-info.yaml
+      allowedKinds: [User, Group]
