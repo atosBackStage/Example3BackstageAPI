@@ -4,7 +4,7 @@ metadata:
   name: teams
 spec:
   targets:
-    - https://raw.githubusercontent.com/atosBackStage/Example3BackstageAPI/main/catalog-info.yaml
+    - https://github.com/atosBackStage/Example3BackstageAPI/blob/main/catalog-info.yaml
   filter:
     kind:
       - User
