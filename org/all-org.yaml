@@ -27,4 +27,4 @@ metadata:
   name: guests
 spec:
   type: team
-  children: [joel, cindy]
+  children: []

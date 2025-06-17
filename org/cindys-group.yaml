@@ -5,7 +5,7 @@ kind: User
 metadata:
   name: cindy
 spec:
-  memberOf: [cindys]
+  memberOf: [cindys, guests]
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
